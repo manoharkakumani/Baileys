@@ -4,7 +4,7 @@ import { proto } from '../../WAProto'
 import { SignalRepository, WAMessageKey } from '../Types'
 import { areJidsSameUser, BinaryNode, isJidBroadcast, isJidGroup, isJidNewsletter, isJidStatusBroadcast, isJidUser, isLidUser } from '../WABinary'
 
-import { unpadRandomMax16, BufferJSON, unpadRandomMax16 } from './generics'
+import { unpadRandomMax16, BufferJSON } from './generics'
 
 export const NO_MESSAGE_FOUND_ERROR_TEXT = 'Message absent from node'
 
